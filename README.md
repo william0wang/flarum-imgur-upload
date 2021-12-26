@@ -1,4 +1,4 @@
-# flarum-imgur-upload [![Packagist](https://img.shields.io/packagist/v/matteocontrini/flarum-imgur-upload.svg)](https://packagist.org/packages/matteocontrini/flarum-imgur-upload)
+# flarum-imgur-upload [![Packagist](https://img.shields.io/packagist/v/william0wang/flarum-imgur-upload.svg)](https://packagist.org/packages/william0wang/flarum-imgur-upload)
 
 **flarum-imgur-upload** is a [Flarum](https://github.com/flarum/flarum/) extension that allows posting images in Flarum posts using [Imgur](https://imgur.com/) for image hosting.
 
