@@ -1,12 +1,12 @@
 {
-    "name": "matteocontrini/flarum-imgur-upload",
+    "name": "william0wang/flarum-imgur-upload",
     "description": "Simple image upload from the Flarum editor",
     "type": "flarum-extension",
     "license": "GPL-3.0",
     "authors": [
       {
-        "name": "Matteo Contrini",
-        "email": "matteo@contrini.it"
+        "name": "William Wang",
+        "email": "william@10ln.com"
       }
     ],
     "require": {
