@@ -16,14 +16,16 @@ app.initializers.add('imgur-upload', () => {
             {
                 setting: 'imgur-upload.image-url',
                 label: 'Imgur Image url eg: https://i.imgur.com',
-                type: 'text'
+                type: 'text',
+                default: 'https://i.imgur.com'
             }
         )
         .registerSetting(
             {
                 setting: 'imgur-upload.api-url',
                 label: 'Imgur Api url eg: https://api.imgur.com/3/image',
-                type: 'text'
+                type: 'text',
+                default: 'https://api.imgur.com/3/image'
             }
         )
         .registerSetting(
