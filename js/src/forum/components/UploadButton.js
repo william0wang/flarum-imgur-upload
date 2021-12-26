@@ -96,7 +96,7 @@ export default class UploadButton extends Component {
         formData.append('image', file);
 
         $.ajax({
-            url: 'https://api.imgur.com/3/image',
+            url: app.forum.attribute('imgur-upload.api-url'),
             headers: {
                 'Authorization': 'Client-ID ' + app.forum.attribute('imgur-upload.client-id')
             },
@@ -117,7 +117,8 @@ export default class UploadButton extends Component {
         this.isSuccess = true;
         m.redraw();
 
-        let stringToInject = this.buildEmbedCode(response.data.link, response.data.width > 1024);
+        let imageLink = response.data.link.replace("https://i.imgur.com", app.forum.attribute('imgur-upload.image-url'));
+        let stringToInject = this.buildEmbedCode(imageLink, response.data.width > 1024);
 
         this.attrs.editor.insertAtCursor(stringToInject);
 

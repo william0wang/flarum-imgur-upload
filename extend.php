@@ -13,6 +13,8 @@ return [
     new Extend\Locales(__DIR__ . '/locale'),
     (new Extend\Settings)
         ->serializeToForum('imgur-upload.client-id', 'imgur-upload.client-id')
+        ->serializeToForum('imgur-upload.image-url', 'imgur-upload.image-url')
+        ->serializeToForum('imgur-upload.api-url', 'imgur-upload.api-url')
         ->serializeToForum('imgur-upload.hide-markdown-image', 'imgur-upload.hide-markdown-image')
         ->serializeToForum('imgur-upload.embed-type', 'imgur-upload.embed-type')
         ->serializeToForum('imgur-upload.allow-paste', 'imgur-upload.allow-paste')

@@ -11,7 +11,7 @@ With flarum-imgur-upload you can upload images to Imgur while writing your post,
 ## Installation
 
 ```
-composer require matteocontrini/flarum-imgur-upload
+composer require william0wang/flarum-imgur-upload
 ```
 
 If you previously used `matpompili/flarum-imgur-upload` (the original work on this extension by Matteo Pompili) or `botfactoryit/flarum-imgur-upload`, you should disable and remove those extensions when you upgrade to beta 8.

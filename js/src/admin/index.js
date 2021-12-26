@@ -14,6 +14,22 @@ app.initializers.add('imgur-upload', () => {
         )
         .registerSetting(
             {
+                setting: 'imgur-upload.image-url',
+                label: 'Imgur Image url eg: https://i.imgur.com',
+                type: 'text',
+                default: 'https://i.imgur.com'
+            }
+        )
+        .registerSetting(
+            {
+                setting: 'imgur-upload.api-url',
+                label: 'Imgur Api url eg: https://api.imgur.com/3/image',
+                type: 'text',
+                default: 'https://api.imgur.com/3/image'
+            }
+        )
+        .registerSetting(
+            {
                 setting: 'imgur-upload.hide-markdown-image',
                 label: app.translator.trans('imgur-upload.admin.settings.hide-markdown-image'),
                 type: 'boolean'
